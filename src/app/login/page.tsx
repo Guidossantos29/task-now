@@ -1,9 +1,12 @@
 import React from 'react'
+import Header from '../components/Header'
+import CustomForm from '../components/UI/CustomForm'
 
 function LoginPage() {
   return (
     <div>
-      <h1>Login</h1>
+      <Header/>
+      <CustomForm/>
     </div>
   )
 }

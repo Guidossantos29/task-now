@@ -1,6 +1,6 @@
 "use client"
 
-import PrimaryButton from '@/app/layout/PrimaryButton'
+import PrimaryButton from '@/app/components/UI/PrimaryButton'
 import React from 'react'
 import { useRouter } from 'next/navigation'
 

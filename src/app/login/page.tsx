@@ -4,11 +4,15 @@ import CustomForm from '../components/UI/CustomForm'
 
 function LoginPage() {
   return (
-    <div>
-      <Header/>
-      <CustomForm/>
+    <>
+    <Header showLogin={true} showRegister={false} />
+    <div className=" mt-[200px] flex flex-col items-center justify-center ">
+      <CustomForm />
     </div>
-  )
+    
+    </>
+    
+  );
 }
 
 export default LoginPage
